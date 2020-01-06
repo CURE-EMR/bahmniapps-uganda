@@ -1,23 +1,30 @@
-# Compiled class file
-*.class
-
-# Log file
+.DS_Store
+nbproject
+manifest.mf
+build.xml
 *.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+*.iml
+.project
+.settings
+test/output
+target
+output
+.sass-cache
+ui/.css/
+.tmp
+ui/node_modules
+ui/app/components
+ui/dist
+ui/cacheAndroidDist
+ui/cacheChromeDist
+ui/app/styles/**/*.css
+ui/app/styles/*.css
+**/.DS_Store
+test_out
+omod/src/main/webapp/*
+coverage
+ui/style-guide
+node_modules
+*.tern-port
+**/.idea/*
+ui/common.background.min.js
